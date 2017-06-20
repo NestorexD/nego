@@ -10,19 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {
+	return view('cloudservice.negocios.index');
+});
 
-
+Route::get('/','NegociosController@index');
 Route::resource('cloudservice/negocios','NegociosController');
-Route::get('index','NegociosController@index');
 Route::get('information/{nombre}', 'NegociosController@nombre');
-
-
-Route::get('negocios/{name}',[
-	'uses' => 'NegociosController@searchDistrito',
-	'as' => 'negocios.search.distrito'
-]);
-
-Route::get('rubro/{name}',[
-	'uses' => 'NegociosController@searchRubro',
-	'as' => 'negocios.search.rubro'
-]);

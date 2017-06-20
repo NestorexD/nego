@@ -23,7 +23,7 @@ class Negocios extends Model
     	'referencia',
         'puntuacion',
     	'condicion',
-        'imagen_fondo',
+        'imagen_00',
         'imagen_01',
         'imagen_02',
         'imagen_03',

@@ -2,9 +2,9 @@
           <div class="col-md-3 infor-left">
             <h3>Búscanos</h3>
             <ul>
-              <li><a href="#"><span class="fb"></span><h6>Facebook</h6></a></li>
-              <li><a href="#"><span class="twit"></span><h6>Twitter</h6></a></li>
-              <li><a href="#"><span class="google"></span><h6>Google+</h6></a></li>
+              <li><a href="https://www.facebook.com/ArequipaCosas-1890758414501082/"><span class="fb"></span><h6>Facebook</h6></a></li>
+              <li><a href="https://www.facebook.com/ArequipaCosas-1890758414501082/"><span class="twit"></span><h6>Twitter</h6></a></li>
+              <li><a href="https://www.facebook.com/ArequipaCosas-1890758414501082/"><span class="google"></span><h6>Google+</h6></a></li>
             </ul>
           </div>
 
@@ -32,8 +32,8 @@
             <h3>Contáctanos</h3></br>
             <p><a href="/information/arequipacosas">NL Soluciones Web</a></p>
             <h5>Arequipacosas.com<h5>
-            <h5>+941049562 +924873809</h5>  
-            <p><a href="mailto:nestore156@gmail.com">nestore156@gmail.com</a></p>
+            <h5>+924873809 +959339170</h5>  
+            <p><a href="mailto:arequipacosas@gmail.com">arequipacosas@gmail.com</a></p>
           </div>
           <div class="clearfix"></div>
         </div>

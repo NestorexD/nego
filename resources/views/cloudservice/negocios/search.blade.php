@@ -1,4 +1,3 @@
-
 {!!Form::open(array('url'=>'cloudservice/negocios','method'=>'GET','autocomplete'=>'off','role'=>'search')) !!}
 <!--url: es para redireccionar GET:permite filtrar los negocios (negociosController:). role:search-->
 	

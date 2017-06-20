@@ -16,8 +16,8 @@
 		<div class="container">
 			<div class="breadcrumbs-main">
 				<ol class="breadcrumb">
-					<li><a href="index.html">Arequipacosas</a></li>
-					<li><a href=""> Restaurante </a></li>
+					<li><a href="">Arequipacosas</a></li>
+					<li><a href=""> Negocios </a></li>
 					<li class="active">1</li>
 				</ol>
 			</div>
@@ -35,7 +35,7 @@
 					<table class="table table-bordered">				  
 					  <tbody>
 					    <tr>
-					      <td scope="row" rowspan="5"><img src="{{asset('/images/'.$num->imagen_08)}}" class="borde-img"></td>	      
+					      <td scope="row" rowspan="5"><img src="{{asset('/images/'.$num->imagen_00)}}" class="borde-img"></td>	      
 					    </tr>
 					    <td colspan="2"><a href="{{URL::action('NegociosController@show', $num->nombre_negocio)}}"><h1>{{ $num->nombre_negocio }}</h1></a></td>				     
 					    </tr>

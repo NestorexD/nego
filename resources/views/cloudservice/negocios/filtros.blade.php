@@ -31,13 +31,15 @@
                         <label class="radio"><input type="radio" name="radio" checked=""><i></i>Restaurantes</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Hoteles</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Farmacias</label>
-                      </div>
-                      <div class="col col-4">
                         <label class="radio"><input type="radio" name="radio"><i></i>Mercado</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Librerias</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Bodegas</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Ferreterias</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Jugueria</label>
+                        <label class="radio"><input type="radio" name="radio"><i></i>Cancha Sintética</label>
+                        <label class="radio"><input type="radio" name="radio"><i></i>Saunas</label>
+                        <label class="radio"><input type="radio" name="radio"><i></i>Confeccion Textil</label>
+                        <label class="radio"><input type="radio" name="radio"><i></i>Telefonia Movil</label>
                       </div>
                     </div>            
               </section>
@@ -46,13 +48,14 @@
                     <h4>Categorias</h4>
                     <div class="row1 row3 scroll-pane">
                       <div class="col col-4">
-                        <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Negocios</label>
-                      </div>
-                      <div class="col col-4">               
+                        <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Negocios</label>             
                         <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Infantiles</label>
                         <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Publico en General</label>
                         <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Gourmet</label> 
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Colegios</label>    
+                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Colegios</label>
+                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Cultura</label>
+                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Deportes</label>
+                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Servicios</label>    
                       </div>
                     </div>
               </section>

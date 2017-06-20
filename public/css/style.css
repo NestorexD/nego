@@ -5,7 +5,7 @@ body{
 	font-family: 'BlinkMacSystemFont',-apple-system,'Segoe UI','Roboto',Helvetica,Arial,sans-serif;
 	font-weight: ;
 	color:	;
-	background-color: ;
+	background-color: #F4FFF6; /*anterior:F4F4F4 nuevo #E4FCE9*/
 	font-size: 16px;
 	line-height: ;
 	text-align: center;
@@ -232,6 +232,10 @@ header img{
 
 .table h1{
 	color: #CB4335;/*154360 rojo titulo*/
+}
+
+.table a:hover{
+	color: #CB4335;
 }
 .table h5{
 	color: #3498DB;/*3498DB color azul clarito*/
@@ -819,12 +823,6 @@ header img{
   padding-left: 0;
   position:relative;
 }
-.arriv-info {
-  position: absolute;
-  top: 216px;
-  left: 119px;
-  text-align: center;
-}
 .arriv-right {
   padding-right: 0;
   position:relative;
@@ -842,23 +840,11 @@ header img{
   position: relative;
 }
 .arriv-right2 {
-  padding-right: 0;
+  padding-right: 0px;
   position: relative;
 }
-.arriv h3 {
-  font-size: 1.5em;
-  font-weight: 500;
-  color: #f9f9f9;
-  margin: 0 0 0.5em;
- }
 
-.arriv p {
-  color: #ededed;
-  font-size: 1em;
-  font-weight: 300;
-  line-height: 1.8em;
-  margin: 0.5em 0;
-}
+
 .crt-btn a {
   text-transform: capitalize;
   display: inline-block;
@@ -874,6 +860,7 @@ header img{
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .crt-btn a:hover{
   background:#ff6978;
   border:1px solid #ff6978;
@@ -890,6 +877,7 @@ header img{
 .arriv-top {
   margin: 1.5em 0;
 }
+
 
 i.ars {
   width: 35px;
@@ -914,7 +902,6 @@ i.ars {
 
 /*--------code_new-end-----------*/
 /*-- single-page --*/
-
 
 
 
