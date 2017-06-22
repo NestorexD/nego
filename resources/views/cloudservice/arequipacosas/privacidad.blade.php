@@ -1,5 +1,5 @@
-@extends('layoults.information')
-@section('informacion')
+@extends('layoults.arequipacosas')
+@section('arequipacosas')
 
 	<div class="politica">
 		<h1> Política de Privacidad </h1>

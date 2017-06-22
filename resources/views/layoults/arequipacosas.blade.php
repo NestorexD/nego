@@ -22,7 +22,7 @@
     
     <div class="container">
 
-      @yield('informacion') 
+      @yield('arequipacosas') 
       
     </div>
 

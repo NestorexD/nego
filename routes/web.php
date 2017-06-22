@@ -16,4 +16,4 @@ Route::get('/', function () {
 
 Route::get('/','NegociosController@index');
 Route::resource('cloudservice/negocios','NegociosController');
-Route::get('information/{nombre}', 'NegociosController@nombre');
+Route::get('arequipacosas/{nombre}', 'NegociosController@nombre');

@@ -58,7 +58,7 @@ class NegociosController extends Controller
 
     public function nombre($nombre)
     {
-        return view('cloudservice.information.'.$nombre);
+        return view('cloudservice.arequipacosas.'.$nombre);
     }
 
 }   
