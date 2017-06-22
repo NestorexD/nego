@@ -51,12 +51,12 @@
 	    <div class="arriv-top">
 	      <div class="col-md-6 arriv-left">
 	        	<div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.1s">
-	        		<img src="{{asset('/images/'.$negocios->imagen_02)}}" class="img-responsive borde-img zoom" alt="">
+	        		<img src="{{asset('/images/'.$negocios->imagen_02)}}" class="img-responsive borde-img zoom" alt="Arequipacosas Arequipacosas.com">
 	        	</div>
 	      </div>
 	      <div class="col-md-6 arriv-right">
 	        	<div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.2s">
-	        		<img src="{{asset('/images/'.$negocios->imagen_03)}}" class="img-responsive borde-img zoom" alt="">
+	        		<img src="{{asset('/images/'.$negocios->imagen_03)}}" class="img-responsive borde-img zoom" alt="Arequipacosas Arequipacosas.com">
 	        	</div>
 	      </div>
 	      <div class="clearfix"> </div>
@@ -65,12 +65,12 @@
 	    <div class="arriv-bottm">
 	      <div class="col-md-8 arriv-left1">
 	      		<div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.3s">
-	        		<img src="{{asset('/images/'.$negocios->imagen_04)}}" class="img-responsive borde-img zoom" alt="">
+	        		<img src="{{asset('/images/'.$negocios->imagen_04)}}" class="img-responsive borde-img zoom" alt="Arequipacosas Arequipacosas.com">
 	        	</div>
 	      </div>
 	      <div class="col-md-4 arriv-right1">
 	        	<div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.4s">	
-	        		<img src="{{asset('/images/'.$negocios->imagen_05)}}" class="img-responsive borde-img zoom" alt="">
+	        		<img src="{{asset('/images/'.$negocios->imagen_05)}}" class="img-responsive borde-img zoom" alt="Arequipacosas Arequipacosas.com">
 	        	</div>
 	      </div>
 	      <div class="clearfix"> </div>
@@ -79,16 +79,16 @@
 	    <div class="arriv-las">
 	      <div class="col-md-6 arriv-left2">
 	        	<div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.5s">
-	        		<img src="{{asset('/images/'.$negocios->imagen_06)}}" class="img-responsive borde-img zoom" alt="">
+	        		<img src="{{asset('/images/'.$negocios->imagen_06)}}" class="img-responsive borde-img zoom" alt="Arequipacosas Arequipacosas.com">
 	        	</div>
 
 	        	<div class="team-wrapper-big wow bounceInUp margintop-30" data-wow-delay="0.6s">	
-	        		<img src="{{asset('/images/'.$negocios->imagen_07)}}" class="img-responsive borde-img zoom" alt="">
+	        		<img src="{{asset('/images/'.$negocios->imagen_07)}}" class="img-responsive borde-img zoom" alt="Arequipacosas Arequipacosas.com">
 	        	</div>
 	      </div>
 	      <div class="col-md-offset-6 arriv-right2">
 	        	<div class="team-wrapper-big wow bounceInUp margintop-10" data-wow-delay="0.7s">	
-	        		<img src="{{asset('/images/'.$negocios->imagen_08)}}" class="img-responsive borde-img zoom" alt="">
+	        		<img src="{{asset('/images/'.$negocios->imagen_08)}}" class="img-responsive borde-img zoom" alt="Arequipacosas Arequipacosas.com">
 	        	</div>
 	      </div>
 	      <div class="clearfix"> </div>

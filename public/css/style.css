@@ -1518,17 +1518,21 @@ ul.tags_links li a:hover{
 .politica{
 	margin-bottom: 100px;
 	margin-top: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+	text-align: justify;
 } 
 
 .politica h1{
-	color: #3498DB
-	margin: 50px 50px;
+	color: #0B2262;
 	font-size: 38px;
+	font-weight: bold;
 }
 
 .politica p{
+	margin:40px;
 	color: #222;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 

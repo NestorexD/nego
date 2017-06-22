@@ -22,7 +22,7 @@
             <h3>Atención al Cliente</h3>
             <ul>
               <li><a href="/arequipacosas/somos_arequipacosas"><p>Somos Arequipacosa</p></a></li>
-              <li><a href="/arequipacosas/arequipacosas"><p>Sobre Arequipacosas</p></a></li>
+              <li><a href="/arequipacosas/arequipacosas"><p>Arequipacosas</p></a></li>
               <li><a href="/arequipacosas/privacidad"><p>Política de Privacidad</p></a></li>
               <li><a href="/arequipacosas/condiciones"><p>Términos y condiciones</p></a></li>
             </ul>
