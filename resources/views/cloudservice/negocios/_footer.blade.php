@@ -11,10 +11,10 @@
           <div class="col-md-3 infor-left">
             <h3>Rubros </h3>
             <ul>
-              <li><a href=""><p>Restaurantes</p></a></li>
-              <li><a href=""><p>Hoteles</p></a></li>
-              <li><a href=""><p>Colegios</p></a></li>
-              <li><a href=""><p>Mas negocios</p></a></li>
+              <li><a href="/cloudservice/negocios"><p>Restaurantes</p></a></li>
+              <li><a href="/cloudservice/negocios"><p>Hoteles</p></a></li>
+              <li><a href="/cloudservice/negocios"><p>Colegios</p></a></li>
+              <li><a href="/cloudservice/negocios"><p>Mas negocios</p></a></li>
             </ul>
           </div>
 

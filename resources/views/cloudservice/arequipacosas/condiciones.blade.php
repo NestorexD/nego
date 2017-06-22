@@ -3,7 +3,7 @@
 
 	<div class="politica">
 		<h1> Términos y Condiciones </h1>
-		<p>Quienes Somos...</p>
+		<p>Los términos y condiciones de la empresa <label>Arequipacosas</label>...</p>
 	</div>
 
 @endsection
