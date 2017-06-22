@@ -25,6 +25,8 @@
 			<li>Poder recomendar un negocio por el buen trato, o por satisfacción del cliente.</li><br>
 			<li>Poder encontrar el servicio que necesito en un menor tiempo que el habitual.</li></p>
 		</ul>
+
+		
 	</div>
 
 @endsection
