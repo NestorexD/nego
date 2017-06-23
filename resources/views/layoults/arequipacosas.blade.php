@@ -6,7 +6,7 @@
     <div class="container"> 
       <div class="row">
         <div class="col-md-6 text-left">
-          <img src="/images/logo.png">
+          <img src="/images/logo.png" alt="Arequipacosas Arequipacosas.com">
         </div>
         <div class="col-md-6 text-right">         
           <button type="button" class="btn btn-primary">Registra tu negocio</button>
