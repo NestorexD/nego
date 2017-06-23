@@ -3,7 +3,7 @@
 	
 	<div class="form-group">
 		<div class="input-group">
-			<input type="text" class="form-control" name="searchText" placeholder="Buscar negocios... por nombre, rubro, o distrito..." value="{{$searchText}}">
+			<input type="text" class="form-control" name="searchText" placeholder="Buscar negocios... por nombre, rubro, distrito o lo que necesites..." value="{{$searchText}}">
 			<span class="input-group-btn">
 				<a href=""><button type="submit" class="btn btn-success">Buscar Ahora</button></a>				
 			</span>

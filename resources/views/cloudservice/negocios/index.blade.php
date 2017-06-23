@@ -17,7 +17,7 @@
 			<div class="breadcrumbs-main">
 				<ol class="breadcrumb">
 					<li><a href="/arequipacosas/arequipacosas">Arequipacosas</a></li>
-					<li><a href="/arequipacosas/somos_arequipacosas"> Negocios </a></li>
+					<li><a href="/arequipacosas/somos_arequipacosas">Negocios</a></li>
 					<li class="active">1</li>
 				</ol>
 			</div>
