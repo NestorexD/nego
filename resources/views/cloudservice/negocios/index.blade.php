@@ -1,8 +1,8 @@
 @extends('layoults.negocios')
 @section('content')
-
-      <h3 class="text-center">¿Qué necesitas?</h3>
-      <div class="row margintop-30">                
+	  
+      <h1 class="text-center">Busca y encuentra en Arequipacosas</h1>
+      <div class="row margintop-50">                
         <div class="col-md-6 col-md-offset-3">
             
            @include('cloudservice.negocios.search')
