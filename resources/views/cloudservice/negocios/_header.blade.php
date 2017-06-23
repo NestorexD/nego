@@ -16,5 +16,5 @@
   <link rel="stylesheet" href="{{asset('css/style.css')}}" >
  
   <link rel="shortcut icon" href="{{asset('images/arequipacosas_icono/arequipacosas_icono.png')}}">
-  <title>Anuncia tu negocio en la plataforma de busqueda de negocios de Arequipa: Arequipacosas.com</title>
+  <title>Arequipacosas.com | Registra, anuncia, publica y encuentra todos los negocios de Arequipa; en la plataforma de negocios Arequipacosas.com</title>
 </head>

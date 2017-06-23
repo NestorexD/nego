@@ -31,7 +31,7 @@
           <div class="col-md-3 infor-left">
             <h3>Contáctanos</h3></br>
             <p><a href="/arequipacosas/arequipacosas">NL Soluciones Web</a></p>
-            <h5>Arequipacosas.com<h5>
+            <a href="https://www.facebook.com/ArequipaCosas-1890758414501082/"><h5>Arequipacosas.com<h5></a>
             <h5>+924873809 +959339170</h5>  
             <p><a href="mailto:arequipacosas@gmail.com">arequipacosas@gmail.com</a></p>
           </div>
@@ -46,12 +46,12 @@
         <div class="footer-top">
           <div class="col-md-6 footer-left text-left">
             <form>
-              <input type="text" value="Ingresa Tu Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}">
+              <input type="text" value="Ingresa Tu Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'arequipacosas@gmail.com';}">
               <input class="btn btn-primary" type="submit" value="Suscríbete">
             </form>
           </div>
           <div class="col-md-6 footer-right">         
-            <p>© 2017 Arequipacosas. Todos los derechos reservados | Diseñado por <a href="" target="_blank">NL Soluciones Web</a> </p>
+            <p>© 2017 Arequipacosas. Todos los derechos reservados | Diseñado por <a href="https://www.facebook.com/paginaswebNL/" target="_blank">NL Soluciones Web</a> </p>
           </div>
           <div class="clearfix"></div>
         </div>

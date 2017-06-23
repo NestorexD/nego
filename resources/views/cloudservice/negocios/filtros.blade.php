@@ -28,7 +28,7 @@
                     <h4>Rubro de Negocios</h4>
                     <div class="row1 row2 scroll-pane">
                       <div class="col col-4">                     
-                        <label class="radio"><input type="radio" name="radio" checked=""><i></i>Restaurantes</label>
+                        <label class="radio"><input type="radio" name="radio"><i></i>Restaurantes</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Hoteles</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Farmacias</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Mercado</label>
@@ -40,6 +40,8 @@
                         <label class="radio"><input type="radio" name="radio"><i></i>Saunas</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Confeccion Textil</label>
                         <label class="radio"><input type="radio" name="radio"><i></i>Telefonia Movil</label>
+                        <label class="radio"><input type="radio" name="radio"><i></i>Veterinaria</label>
+                        <label class="radio"><input type="radio" name="radio"><i></i>Colegios</label>
                       </div>
                     </div>            
               </section>
@@ -55,7 +57,8 @@
                         <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Colegios</label>
                         <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Cultura</label>
                         <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Deportes</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Servicios</label>    
+                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Servicios</label>
+                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Social</label>    
                       </div>
                     </div>
               </section>

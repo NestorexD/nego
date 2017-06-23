@@ -35,7 +35,7 @@
 					<table class="table table-bordered">				  
 					  <tbody>
 					    <tr>
-					      <td scope="row" rowspan="5"><img src="{{asset('/images/'.$num->imagen_00)}}" class="borde-img"></td>	      
+					      <td scope="row" rowspan="5"><img src="{{asset('/images/'.$num->imagen_00)}}" class="borde-img" alt="Arequipacosas arequipacosas.com"></td>	      
 					    </tr>
 					    <td colspan="2"><a href="{{URL::action('NegociosController@show', $num->nombre_negocio)}}"><h1>{{ $num->nombre_negocio }}</h1></a></td>				     
 					    </tr>

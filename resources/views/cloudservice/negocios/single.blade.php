@@ -9,7 +9,7 @@
     <div class="row">   	 
        <div class="col-md-5 text-right">
           	<div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.1s">
-          		<img src="{{asset('/images/'.$negocios->imagen_01)}}" class="img-responsive borde-img zoom" alt="">       
+          		<img src="{{asset('/images/'.$negocios->imagen_01)}}" class="img-responsive borde-img zoom" alt="Arequipacosas">       
 	    	</div>
 	    </div>
 	   	
