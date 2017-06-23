@@ -26,6 +26,7 @@ class NegociosController extends Controller
             ->where('nombre_negocio','LIKE', '%'.$query.'%')
             ->where('condicion','=','1')
             ->orwhere('rubro','LIKE','%'.$query.'%') 
+            ->orwhere('descripcion','LIKE','%'.$query.'%')   
             ->orwhere('distrito','LIKE','%'.$query.'%')     
     		->orderBy('id_negocios','desc')	 
     		->paginate(8);
