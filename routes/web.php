@@ -17,3 +17,12 @@ Route::get('/', function () {
 Route::get('/','NegociosController@index');
 Route::resource('cloudservice/negocios','NegociosController');
 Route::get('arequipacosas/{nombre}', 'NegociosController@nombre');
+
+Route::get('ajax',function(){
+   return view('message');
+});
+
+Route::post('/buscar','NegociosController@buscar');
+
+//redireccciona pasando una variable nombre hacia NegocioController
+Route::get('mostrar/{nombre}', array('as' => 'negocio', 'uses' => 'NegociosController@show'));

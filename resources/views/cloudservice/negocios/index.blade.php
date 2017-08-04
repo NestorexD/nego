@@ -1,7 +1,25 @@
 @extends('layoults.negocios')
 @section('content')
+
+<!-- Esto se agrega para que reconosca el AJAX en laravel -->
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<!-- Incluimos la libreria JQUERY -->
+<script type="text/javascript" src="{{ URL::asset('js/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('js/logica.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/map-style.css') }}">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHgssoJjNa-ZrKaoBl566khLe40j9UGfw"></script>
 	  
-      <h1 class="text-center">Busca y encuentra en Arequipacosas</h1>
+<!-- DIV DONDE ESTARA EL MAPA OCULTO ESPERANDO EL EVENTO DE ACTIVACION -->
+	<div class="overlay">
+     <div class="map">
+       <div id="titulo"><h2 id="nombre_negocio"></h2></div>
+       <div id="map-canvas"></div>
+       <div id="direccion"><h3 id="direccion_negocio"></h3></div>
+     </div>
+   </div>
+
+
+      <h1 class="text-center" >Busca y encuentra en Arequipacosas</h1>
       <div class="row margintop-50">                
         <div class="col-md-6 col-md-offset-3">
             
@@ -29,32 +47,8 @@
   <div class="container"> 
     <div id="description">
       <div class="row">
-        <div class="col-md-8">  
- 			
-	        		@foreach ($negocios as $num)	<!--implementar un foreach-->
-					<table class="table table-bordered">				  
-					  <tbody>
-					    <tr>
-					      <td scope="row" rowspan="5"><img src="{{asset('/images/'.$num->imagen_00)}}" class="borde-img" alt="Arequipacosas arequipacosas.com"></td>	      
-					    </tr>
-					    <td colspan="2"><a href="{{URL::action('NegociosController@show', $num->nombre_negocio)}}"><h1>{{ $num->nombre_negocio }}</h1></a></td>				     
-					    </tr>
-					    <tr>
-					      <td class="direccion">{{ $num->direccion}}, {{$num->distrito}}</td>		     
-					    </tr>
-					    <tr>
-					      <td class="telefono"><i class="fa fa-phone-square" aria-hidden="true"></i> {{ $num->telefonos }}</td>
-					    </tr>
-					    <tr>				 
-					       <td class="ubicacion"><i class="fa fa-street-view" aria-hidden="true">Ubicación</td>					   
-					      <td class="rubro"><h5>{{ $num->rubro }}</h5></td>
-
-					    </tr>				    
-					  </tbody>
-					</table>
-					
-					@endforeach				
-			{{ $negocios->render()}}				
+        <div id="contenido" class="col-md-8">  
+ 							
 		</div>	
 					
 	<!--end-single-->

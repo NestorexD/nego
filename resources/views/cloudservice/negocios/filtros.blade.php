@@ -2,24 +2,24 @@
                   <h4>Filtrar por Zonas</h4>
                   <div class="row1 scroll-pane">
                     <div class="col col-4">   
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Alto Selva Alegre</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Arequipa</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Cayma</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Cerro Colorado</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Characato</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Jacobo Hunter</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Jose Luis Bustamante y R.</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Mariano Melgar</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Miraflores</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Paucarpata</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Sabandia</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Sachaca</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Socabaya</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Tiabaya</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Uchumayo</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Yanahuara</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Yarabamba</label>
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Yura</label>                     	
+                        <label class="checkbox"><input type="checkbox" name="zona" value ="Alto Selva Alegre"><i></i>Alto Selva Alegre</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value ="Arequipa"><i></i>Arequipa</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Cayma"><i></i>Cayma</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Cerro Colorado"><i></i>Cerro Colorado</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value ="Characato"><i></i>Characato</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Jacobo Hunter"><i></i>Jacobo Hunter</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Jose Luis Bustamante y R."><i></i>Jose Luis Bustamante y R.</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Mariano Melgar"><i></i>Mariano Melgar</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Miraflores"><i></i>Miraflores</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Paucarpata"><i></i>Paucarpata</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Sabandia"><i></i>Sabandia</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Sachaca"><i></i>Sachaca</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Socabaya"><i></i>Socabaya</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Tiabaya"><i></i>Tiabaya</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Uchumayo"><i></i>Uchumayo</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Yanahuara"><i></i>Yanahuara</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Yarabamba"><i></i>Yarabamba</label>
+                        <label class="checkbox"><input type="checkbox" name="zona" value="Yura"><i></i>Yura</label>                     	
                     </div>
                   </div>
               </section>
@@ -28,20 +28,20 @@
                     <h4>Rubro de Negocios</h4>
                     <div class="row1 row2 scroll-pane">
                       <div class="col col-4">                     
-                        <label class="radio"><input type="radio" name="radio"><i></i>Restaurantes</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Hoteles</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Farmacias</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Mercado</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Librerias</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Bodegas</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Ferreterias</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Jugueria</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Cancha Sintética</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Saunas</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Confeccion Textil</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Telefonia Movil</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Veterinaria</label>
-                        <label class="radio"><input type="radio" name="radio"><i></i>Colegios</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Restaurantes"><i></i>Restaurantes</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Hoteles"><i></i>Hoteles</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Farmacias"><i></i>Farmacias</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Mercado"><i></i>Mercado</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Librerias"><i></i>Librerias</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Bodegas"><i></i>Bodegas</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Ferreteria"><i></i>Ferreterias</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Jugueria"><i></i>Jugueria</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Cancha Sintetica"><i></i>Cancha Sintética</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Saunas"><i></i>Saunas</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Confeccion Textil"><i></i>Confeccion Textil</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Telefonia Movil"><i></i>Telefonia Movil</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Veterinaria"><i></i>Veterinaria</label>
+                        <label class="radio"><input type="radio" name="rubro" value="Colegios"><i></i>Colegios</label>
                       </div>
                     </div>            
               </section>

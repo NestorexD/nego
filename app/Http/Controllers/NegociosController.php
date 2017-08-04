@@ -62,5 +62,48 @@ class NegociosController extends Controller
         return view('cloudservice.arequipacosas.'.$nombre);
     }
 
+
+    public function buscar(Request $request){
+        // obtenemos los 2 datos para buscar una consulta y una lista de zonas
+        $query = $request->busqueda;
+        $zonas = $request->zona;
+        $rubro = $request->rubro;
+
+        //hacemos una consulta con el texto de busqueda y obtenemos una tabla
+        $table1=DB::table('negocios')
+            ->where('nombre_negocio','LIKE', '%'.$query.'%')
+            ->where('condicion','=','1');  
+
+
+        if($query == ""){
+            //si el campo de busqueda es vacio y hay zonas marcadas entonces hacemos una consulta con esas zonas
+            if(sizeof($zonas)>0){
+                $negocios = DB::table('negocios')->wherein('distrito',$zonas);
+            }
+            //si no hay busqueda ni campos marcados se devuelve la tabla completa
+            else{
+                $negocios = $table1;
+            }
+        }
+       else{
+            //si el campo de busqueda no es vacio y hay zonas marcadas entonces debemos filtrar por zonas la table1
+            if(sizeof($zonas)>0){
+                $negocios = $table1->wherein('distrito',$zonas);
+            }
+            //si no hay zonas y si hay busqueda solo se obtiene la misma tabla
+            else{
+                $negocios = $table1;
+            }
+       }
+
+       //si hay un rubro marcado hacemos un filtro a la tabla
+       if($rubro !=""){
+        $negocios = $negocios->where('rubro','LIKE','%'.$rubro.'%');
+       }
+       
+        $negocios = $negocios->orderBy('id_negocios','desc') -> get();
+
+        return response()->json(array('negocios'=> $negocios), 200);
+    }
 }   
 
